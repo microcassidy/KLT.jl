@@ -1,9 +1,15 @@
 name = "KLT"
 uuid = "08242366-3e31-4689-85e3-00e2dd4e8612"
-authors = ["Michael Cassidy"]
 version = "1.0.0-DEV"
+authors = ["Michael Cassidy"]
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 [compat]
+LinearAlgebra = "1.12.0"
+StatsBase = "0.34.10"
 julia = "1.10.10"
 
 [extras]
